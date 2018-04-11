@@ -1,7 +1,11 @@
 # nginx-uwsgi-alpine
 Docker image for nginx + uwsgi python web app webserver (should run on many platforms)
 
-# Supported Platforms
+# Supported Platforms ready to use:
+- amd64 -> tag: ```:amd64``` / ```:latest```
+- arm64 (raspberrypi) -> tag: ```:arm64```
+
+# Supported Platforms to build
 Should be the same as [alpine Linux](https://hub.docker.com/_/alpine/), because only alpine and python-pip packets were used, which leads to:
 - ```amd64```
 - ```arm32v6```
